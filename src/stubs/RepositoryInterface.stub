@@ -1,0 +1,11 @@
+<?php
+
+namespace {{ namespace }};
+
+use TZS\LaravelRepositoryGenerator\BaseRepositoryInterface;
+use Illuminate\Support\Collection;
+
+interface DummyClass extends BaseRepositoryInterface
+{
+   // Extend with your methods
+}
