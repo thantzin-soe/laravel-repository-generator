@@ -19,7 +19,7 @@ class RepositoryGeneratorServiceProvider extends PackageServiceProvider
 
         $package
             ->name('laravel-repository-generator')
-            ->hasConsoleCommands([
+            ->hasCommands([
                 MakeRepository::class,
                 MakeRepositoryInterface::class
             ]);
