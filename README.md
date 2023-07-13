@@ -2,7 +2,6 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/thantzin-soe/laravel-repository-generator.svg?style=flat-square)](https://packagist.org/packages/thantzin-soe/laravel-repository-generator)
 [![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/thantzin-soe/laravel-repository-generator/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/thantzin-soe/laravel-repository-generator/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/thantzin-soe/laravel-repository-generator/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/thantzin-soe/laravel-repository-generator/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/thantzin-soe/laravel-repository-generator.svg?style=flat-square)](https://packagist.org/packages/thantzin-soe/laravel-repository-generator)
 
 You can generate laravel repository class and interface using **php artisan make:repository Category/CategoryRepository --model=Category**.It will generate CategoryRepository class and CategoryRepositoryInterface inside the *app/Repositories/Category* folder.This package is developed based on the [Spatie Laravel Package Skeleton](https://github.com/spatie/package-skeleton-laravel).
